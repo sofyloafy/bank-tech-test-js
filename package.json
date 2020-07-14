@@ -1,0 +1,23 @@
+{
+  "name": "bank-tech-test-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofyloafy/bank-tech-test-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofyloafy/bank-tech-test-js/issues"
+  },
+  "homepage": "https://github.com/sofyloafy/bank-tech-test-js#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
