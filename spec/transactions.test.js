@@ -6,7 +6,11 @@ describe('#Transactions', () =>{
   // })
 
   test('Allows a deposit to be paid', () => {
-    expect(deposit(5)).toBe('You have deposited £5')
+    expect(deposit.deposit(5)).toBe('You have deposited £5')
+  })
+
+  test('Allows a deposit to be paid', () => {
+    expect(deposit.deposit(10)).toBe('You have deposited £10')
   })
 
 })
