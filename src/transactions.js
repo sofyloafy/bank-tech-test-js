@@ -1,5 +1,5 @@
 function deposit(amount) {
-  return 5
+  return `You have deposited £${amount}`
 }
 
 module.exports = deposit;
