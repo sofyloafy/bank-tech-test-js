@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/sofyloafy/bank-tech-test-js#readme",
   "devDependencies": {
-    "jest": "^26.1.0"
+    "jest": "^26.1.0",
+    "vile": "^0.19.3",
+    "vile-rubocop": "^0.2.4"
   }
 }

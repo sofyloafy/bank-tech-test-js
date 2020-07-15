@@ -1,4 +1,5 @@
 class Transactions {
+  
 
   deposit(amount) {
     return `You have deposited £${amount}`
@@ -7,7 +8,6 @@ class Transactions {
   withdraw(amount) {
     return `You have withdrawn £${amount}`
   }
-
 
 }
 

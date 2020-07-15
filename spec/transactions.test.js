@@ -11,6 +11,10 @@ describe('#Transactions', () =>{
   })
 
   test('Allows a deposit to be paid', () => {
+    var d = new Date().toTimeString()
+    var n = new Date().toDateString()
+    console.log(d)
+    console.log(n)
     expect(transactions.deposit(10)).toBe('You have deposited £10')
   })
 
