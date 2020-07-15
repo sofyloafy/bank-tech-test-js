@@ -1,7 +1,14 @@
+class Transactions {
 
-function deposit(amount) {
-  return `You have deposited £${amount}`
+  deposit(amount) {
+    return `You have deposited £${amount}`
+
+  }
+  withdraw(amount) {
+    return `You have withdrawn £${amount}`
+  }
+
+
 }
 
-
-module.exports.deposit = deposit;
+module.exports.deposit = Transactions;
