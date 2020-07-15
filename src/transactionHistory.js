@@ -1,6 +1,3 @@
-const deposit = require('../src/transactions.js')
-var transactions = new deposit.deposit
-
 class TransactionHistory {
   constructor(){
     this.transactionHistory = []

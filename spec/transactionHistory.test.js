@@ -10,7 +10,6 @@ describe('#depositTransaction', () =>{
 
   test('Formats a deposit transaction', () =>{
     transactions.depositTransaction(10)
-    console.log(transactions.transactionHistory)
     expect(transactions.transactionHistory[1]).toStrictEqual({"balance": "£10", "credit": "£10", "date": n, "debit": "------"})
   })
 })
@@ -18,7 +17,6 @@ describe('#depositTransaction', () =>{
 describe('#depositTransaction', () =>{
   test('Formats a withdrawal transaction', () =>{
     transactions.withdrawTransaction(5)
-    console.log(transactions.transactionHistory[2])
     expect(transactions.transactionHistory[2]).toStrictEqual({"balance": "£5", "credit": "------", "date": n, "debit": "£5"})
   })
 })
