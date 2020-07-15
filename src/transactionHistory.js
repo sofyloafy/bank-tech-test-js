@@ -17,9 +17,14 @@ class TransactionHistory {
     this.transactionHistory.push(transaction)
   }
 
-  store(){
-    return 'hello'
-    // transaction_history.push(transaction)
+  withdrawTransaction(amount){
+    var transaction = {
+      date: new Date().toDateString(),
+      credit: '------',
+      debit: `£${amount}`,
+      balance: `£${amount}`
+    }
+    this.transactionHistory.push(transaction)
   }
 }
 
