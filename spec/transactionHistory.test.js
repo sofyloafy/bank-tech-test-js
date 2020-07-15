@@ -10,7 +10,6 @@ describe('#TransactionsHistory', () =>{
   test('Formats a deposit transaction', () =>{
     var n = new Date().toDateString()
     transactions.depositTransaction(5)
-    console.log(transactions.transactionHistory)
     expect(transactions.transactionHistory[0]).toStrictEqual({"balance": "£5", "credit": "£5", "date": n, "debit": "------"})
 
   })

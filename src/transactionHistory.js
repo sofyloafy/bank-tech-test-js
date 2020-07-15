@@ -7,12 +7,12 @@ class TransactionHistory {
     this.balance = 0
   }
 
-  depositTransaction(){
+  depositTransaction(amount){
     var transaction = {
       date: new Date().toDateString(),
-      credit: `£`+5,
+      credit: `£${amount}`,
       debit: '------',
-      balance: `£`+5
+      balance: `£${amount}`
     }
     this.transactionHistory.push(transaction)
   }
