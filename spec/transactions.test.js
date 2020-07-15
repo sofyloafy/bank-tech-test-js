@@ -2,17 +2,11 @@ const deposit = require('../src/transactions.js')
 var transactions = new deposit.deposit
 
 describe('#Transactions', () =>{
-  // test('Takes a number', () => {
-  //   expect(typeof deposit(5)).toBe('number')
-  // })
-
   test('Allows a deposit to be paid', () => {
     expect(transactions.deposit(5)).toBe('You have deposited £5')
   })
 
   test('Allows a deposit to be paid', () => {
-    var d = new Date().toTimeString()
-    var n = new Date().toDateString()
     console.log(d)
     console.log(n)
     expect(transactions.deposit(10)).toBe('You have deposited £10')
