@@ -14,6 +14,7 @@ class Transactions {
   }
   withdraw(amount) {
     this.balance -= amount
+    history.withdrawTransaction(amount)
     return `You have withdrawn £${amount}`
   }
 
