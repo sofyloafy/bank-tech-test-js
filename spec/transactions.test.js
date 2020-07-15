@@ -7,8 +7,6 @@ describe('#Transactions', () =>{
   })
 
   test('Allows a deposit to be paid', () => {
-    console.log(d)
-    console.log(n)
     expect(transactions.deposit(10)).toBe('You have deposited £10')
   })
 
