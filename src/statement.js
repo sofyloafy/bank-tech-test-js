@@ -7,10 +7,14 @@ class Statement {
   }
 
   format(historytransaction){
-      let valArr = historytransaction.map(o => Object.values(o));
-      var final = valArr.join().replace(/,/g,"  || ");
-      console.log(this.header())
-      console.log(final)
+    const output = []
+    for (let index = 0; index < historytransaction.length; index++) {
+      const subArray = historytransaction[index];
+      let valArr = Object.values(subArray);
+      const formattedLine = valArr.join().replace(/,/g,"  || ")
+      output.push(formattedLine);
+      var final = output.join('\n')
+    }
       return final
     }
   };

@@ -1,7 +1,6 @@
 class TransactionHistory {
   constructor(){
     this.transactionHistory = []
-    this.balance = 0
   }
 
   depositTransaction(amount){
