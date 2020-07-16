@@ -1,16 +1,8 @@
-var bankAccounts = require('../src/bankAccount.js')
-var bankAccount = bankAccounts.bankAccount
+var bankAccount = require('../src/bankAccount.js').BankAccount
+let bankAccounts = new bankAccount
 
 describe('#BankAccount', () =>{
-  test('Should return header', () => {
-    expect(statements.header()).toBe(" Date      || Credit || Debit || Balance \n")
-  })
-
-  test('Should return formatted statement', () => {
-    expect(statements.format([{"date": n, "credit": "£5", "debit": "------", "balance": "£5"}])).toMatch(`${n}  || £5  || ------  || £5`)
-  })
-
-  test('Should return formatted statement', () => {
-    expect(statements.format([{"date": n, "credit": "------", "debit": "£5", "balance": "£5"},{"date": n, "credit": "£5", "debit": "------", "balance": "£5"}])).toMatch(`${n}  || £5  || ------  || £5\n${n}  || ------  || £5  || £5`)
+  test('Should exist', () => {
+    expect(bankAccounts.deposit(5)).toMatch("You have deposited £5")
   })
 })
