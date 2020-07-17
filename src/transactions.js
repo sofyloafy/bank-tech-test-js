@@ -13,10 +13,6 @@ class Transactions {
     return `You have withdrawn £${amount}`
   }
 
-  balance(){
-    return this.balance
-  }
-
 }
 
 module.exports.transactions = Transactions;

@@ -13,7 +13,6 @@ class Statement {
       output.push(formattedLine);
       var final = output.join('\n')
     }
-    console.log(final)
       return this.header() + final
     }
   };

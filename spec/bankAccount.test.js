@@ -21,6 +21,6 @@ describe('#BankAccount', () =>{
   // })
 
   test('Should return statement', () => {
-    expect(bankAccounts.print_statement()).toEqual(` Date      || Credit || Debit || Balance \n${n}  || ------  || £200  || £200\n${n}  || £1000  || ------  || £1000`)
+    expect(bankAccounts.printStatement()).toEqual(` Date      || Credit || Debit || Balance \n${n}  || ------  || £200  || £200\n${n}  || £1000  || ------  || £1000`)
   })
 })

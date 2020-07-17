@@ -10,7 +10,7 @@ describe('#Transactions', () =>{
     expect(transaction.deposit(5)).toBe('You have deposited £5')
   })
 
-  test('Starts with a balance of 0', () => {
+  test('Updates balance', () => {
     expect(transaction.balance).toEqual(5)
   })
 
@@ -18,7 +18,7 @@ describe('#Transactions', () =>{
     expect(transaction.deposit(10)).toBe('You have deposited £10')
   })
 
-  test('Starts with a balance of 0', () => {
+  test('Updates balance', () => {
     expect(transaction.balance).toEqual(15)
   })
 
@@ -26,7 +26,11 @@ describe('#Transactions', () =>{
     expect(transaction.withdraw(10)).toBe('You have withdrawn £10')
   })
 
-  test('Starts with a balance of 0', () => {
+  test('Updates balance', () => {
+    expect(transaction.balance).toEqual(5)
+  })
+
+  test('Updates balance', () => {
     expect(transaction.balance).toEqual(5)
   })
 })

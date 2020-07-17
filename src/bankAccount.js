@@ -12,7 +12,6 @@ class BankAccount {
 
   deposit(amount) {
     history.depositTransaction(amount)
-    console.log(history.transactionHistory)
     return transaction.deposit(amount)
   }
 
@@ -23,12 +22,10 @@ class BankAccount {
   }
 
   balance() {
-    console.log(transaction.balance)
     return transaction.balance
   }
 
-  print_statement(){
-    console.log(history.transactionHistory)
+  printStatement(){
     return statement.format(history.transactionHistory)
 
   }
