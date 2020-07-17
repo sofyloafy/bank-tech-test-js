@@ -1,6 +1,3 @@
-const history = require('../src/transactionHistory.js')
-var transactions = new history.history
-
 class Statement {
   header(){
     return " Date      || Credit || Debit || Balance \n"
@@ -16,7 +13,8 @@ class Statement {
       output.push(formattedLine);
       var final = output.join('\n')
     }
-      return final
+    console.log(final)
+      return this.header() + final
     }
   };
 
