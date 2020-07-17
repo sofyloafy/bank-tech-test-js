@@ -70,7 +70,7 @@ myAccount.balance();
 myAccount.printStatement();
 ```
 ## Testing
-* I installed Jest to test the programme, which included the coverage flag to ensure coverage of all functionality and safeguard against spiking and unsustainable code..
+* I installed Jest to test the programme, which included the coverage flag to ensure coverage of all functionality and safeguard against spiking and unsustainable code.
 
 ## Approach
 * I decided to split the responsibilities across 4 classes, which are Transaction, for handling transactions, TransactionHistory, to store the transactions, Statement, to format the user-friendly statement, and BankAccount, which converges the two.
