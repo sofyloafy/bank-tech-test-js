@@ -1,6 +1,6 @@
 # Bank Tech Test in JS
 
-
+![](https://img.shields.io/badge/coverage-100%25-green)
 
 <i>Please find source spec [here](https://github.com/makersacademy/course/blob/master/individual_challenges/bank_tech_test.md)</i>
 
