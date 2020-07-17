@@ -64,8 +64,8 @@ myAccount = new Account.BankAccount
 ```
 6. You can then withdraw, deposit, view your balance, and see your statement!
 ```
-myAccount.deposit(100);
-myAccount.withdraw(87);
+myAccount.deposit();
+myAccount.withdraw();
 myAccount.balance();
 myAccount.printStatement();
 ```
