@@ -1,4 +1,4 @@
-# Bank Tech Test in JS
+# Bank Tech Test JS
 
 ![](https://img.shields.io/badge/coverage-100%25-green)
 
