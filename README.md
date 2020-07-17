@@ -76,3 +76,4 @@ myAccount.printStatement();
 * I decided to split the responsibilities across 4 classes, which are Transaction, for handling transactions, TransactionHistory, to store the transactions, Statement, to format the user-friendly statement, and BankAccount, which converges the two.
 * I wanted to ensure that SRP was maintained, and that responsibility was shared evenly among the classes.
 * This repl programme was made with the assumption that the user cannot go over-drawn. If they attempt to withdraw more funds than they have, they will be notified of their insufficient funds.
+* The date is not formatted as the example above as it was not a requirement. I have chosen to format it in a more readable way which specifies the day of the week.
