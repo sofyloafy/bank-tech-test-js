@@ -11,13 +11,13 @@ let history = new histories
 class BankAccount {
 
   deposit(amount) {
-    history.depositTransaction(amount)
-    return transaction.deposit(amount)
+    transaction.deposit(amount)
+    return history.depositTransaction(amount, this.balance())
   }
 
   withdraw(amount) {
-    history.withdrawTransaction(amount)
-    return transaction.withdraw(amount)
+    transaction.withdraw(amount)
+    return history.withdrawTransaction(amount, this.balance())
 
   }
 

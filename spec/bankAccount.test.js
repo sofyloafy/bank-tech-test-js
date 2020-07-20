@@ -17,10 +17,10 @@ describe('#BankAccount', () =>{
   })
 
   // test('Should return statement', () => {
-  //   expect(bankAccounts.print_statement()).toMatch(` Date      || Credit || Debit || Balance \n${n}  || £5  || ------  || £5`)
+  //   expect(bankAccounts.printStatement()).toMatch(` Date      || Credit || Debit || Balance \n${n}  || £5  || ------  || £5`)
   // })
 
   test('Should return statement', () => {
-    expect(bankAccounts.printStatement()).toEqual(` Date      || Credit || Debit || Balance \n${n}  || ------  || £200  || £200\n${n}  || £1000  || ------  || £1000`)
+    expect(bankAccounts.printStatement()).toEqual(` Date      || Credit || Debit || Balance \n${n}  || ------  || £200  || £800\n${n}  || £1000  || ------  || £1000`)
   })
 })
