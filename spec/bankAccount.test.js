@@ -18,6 +18,6 @@ describe('#BankAccount', () =>{
 
 
   test('Should print statement', () => {
-    expect(bankAccounts.printStatement()).toEqual(` Date      || Credit || Debit || Balance \n${n}  || ------  || 200.00  || 800.00\n${n}  || 1000.00  || ------  || 1000.00`)
+    expect(bankAccounts.printStatement()).toMatch(` Date      || Credit || Debit || Balance \n${n}  || ------  || 200.00  || 800.00\n${n}  || 1000.00  || ------  || 1000.00`)
   })
 })
