@@ -56,11 +56,11 @@ node
 ```
 5. Once in the repl, type in:
 ```
-var Account = require('./src/BankAccount')
+var Account = require('./src/BankAccount').BankAccount
 ```
 
 ```
-myAccount = new Account.BankAccount
+myAccount = new Account()
 ```
 6. You can then withdraw, deposit, view your balance, and see your statement!
 ```
