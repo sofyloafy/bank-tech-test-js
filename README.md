@@ -45,7 +45,7 @@ date || credit || debit || balance
 ## Quick Start
 
 1. Clone this repo
-2. Bundle install
+2. npm install
 3. You can run the tests at any time:
 ```
 npm test
