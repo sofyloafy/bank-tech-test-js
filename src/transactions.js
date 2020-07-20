@@ -8,13 +8,11 @@ class Transactions {
 
   deposit(amount) {
     this.balance += amount
-    console.log(this.balance)
     return `You have deposited £${amount}`
 
   }
   withdraw(amount) {
     this.balance -= amount
-    console.log(this.balance)
     return `You have withdrawn £${amount}`
   }
 

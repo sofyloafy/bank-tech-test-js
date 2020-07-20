@@ -79,7 +79,7 @@ TN:
 SF:src/transactions.js
 FN:5,(anonymous_0)
 FN:9,(anonymous_1)
-FN:15,(anonymous_2)
+FN:14,(anonymous_2)
 FNF:3
 FNH:3
 FNDA:2,(anonymous_0)
@@ -90,13 +90,11 @@ DA:2,2
 DA:6,2
 DA:10,3
 DA:11,3
-DA:12,3
+DA:15,2
 DA:16,2
-DA:17,2
-DA:18,2
-DA:23,2
-LF:10
-LH:10
+DA:21,2
+LF:8
+LH:8
 BRF:0
 BRH:0
 end_of_record

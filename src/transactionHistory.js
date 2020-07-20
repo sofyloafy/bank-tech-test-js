@@ -8,9 +8,9 @@ class TransactionHistory {
   depositTransaction(amount, balance){
     var transaction = {
       date: new Date().toDateString(),
-      credit: `£${amount}`,
+      credit: `${amount.toFixed(2)}`,
       debit: '------',
-      balance: `£${balance}`
+      balance: `${balance.toFixed(2)}`
     }
     this.transactionHistory.push(transaction)
     return `You have deposited £${amount}`
@@ -20,8 +20,8 @@ class TransactionHistory {
     var transaction = {
       date: new Date().toDateString(),
       credit: '------',
-      debit: `£${amount}`,
-      balance: `£${balance}`
+      debit: `${amount.toFixed(2)}`,
+      balance: `${balance.toFixed(2)}`
     }
     this.transactionHistory.push(transaction)
     return `You have withdrawn £${amount}`

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595267636921" clover="3.2.0">
-  <project timestamp="1595267636922" name="All files">
-    <metrics statements="42" coveredstatements="42" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12" elements="54" coveredelements="54" complexity="0" loc="42" ncloc="42" packages="1" files="4" classes="4"/>
+<coverage generated="1595268746216" clover="3.2.0">
+  <project timestamp="1595268746216" name="All files">
+    <metrics statements="40" coveredstatements="40" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12" elements="52" coveredelements="52" complexity="0" loc="40" ncloc="40" packages="1" files="4" classes="4"/>
     <file name="bankAccount.js" path="/Users/sophiebrown/Projects/Week-10/bank-tech-test-js/src/bankAccount.js">
       <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
@@ -44,17 +44,15 @@
       <line num="31" count="3" type="stmt"/>
     </file>
     <file name="transactions.js" path="/Users/sophiebrown/Projects/Week-10/bank-tech-test-js/src/transactions.js">
-      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <line num="1" count="2" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
       <line num="6" count="2" type="stmt"/>
       <line num="10" count="3" type="stmt"/>
       <line num="11" count="3" type="stmt"/>
-      <line num="12" count="3" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
       <line num="16" count="2" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
-      <line num="18" count="2" type="stmt"/>
-      <line num="23" count="2" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

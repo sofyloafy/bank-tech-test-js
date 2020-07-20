@@ -26,7 +26,7 @@ class BankAccount {
   }
 
   printStatement(){
-    return statement.format(history.transactionHistory)
+    console.log(statement.format(history.transactionHistory))
 
   }
 
