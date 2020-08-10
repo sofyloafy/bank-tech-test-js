@@ -1,6 +1,6 @@
-# Bank Tech Test in JS
+# Bank Tech Test JS
 
-
+![](https://img.shields.io/badge/coverage-100%25-green)
 
 <i>Please find source spec [here](https://github.com/makersacademy/course/blob/master/individual_challenges/bank_tech_test.md)</i>
 
@@ -45,7 +45,7 @@ date || credit || debit || balance
 ## Quick Start
 
 1. Clone this repo
-2. Bundle install
+2. npm install
 3. You can run the tests at any time:
 ```
 npm test
@@ -56,16 +56,16 @@ node
 ```
 5. Once in the repl, type in:
 ```
-var Account = require('./src/BankAccount')
+var Account = require('./src/BankAccount').BankAccount
 ```
 
 ```
-myAccount = new Account.BankAccount
+myAccount = new Account()
 ```
 6. You can then withdraw, deposit, view your balance, and see your statement!
 ```
-myAccount.deposit(100);
-myAccount.withdraw(87);
+myAccount.deposit(1000);
+myAccount.withdraw(200);
 myAccount.balance();
 myAccount.printStatement();
 ```
@@ -76,3 +76,4 @@ myAccount.printStatement();
 * I decided to split the responsibilities across 4 classes, which are Transaction, for handling transactions, TransactionHistory, to store the transactions, Statement, to format the user-friendly statement, and BankAccount, which converges the two.
 * I wanted to ensure that SRP was maintained, and that responsibility was shared evenly among the classes.
 * This repl programme was made with the assumption that the user cannot go over-drawn. If they attempt to withdraw more funds than they have, they will be notified of their insufficient funds.
+* The date is not formatted as the example above as it was not a requirement. I have chosen to format it in a more readable way which specifies the day of the week.
