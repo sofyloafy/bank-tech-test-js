@@ -32,4 +32,4 @@ class BankAccount {
 
 }
 
-module.exports.BankAccount = BankAccount;
+module.exports = BankAccount;

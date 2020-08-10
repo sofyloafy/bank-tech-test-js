@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595269582733" clover="3.2.0">
-  <project timestamp="1595269582733" name="All files">
+<coverage generated="1597043964367" clover="3.2.0">
+  <project timestamp="1597043964367" name="All files">
     <metrics statements="40" coveredstatements="40" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12" elements="52" coveredelements="52" complexity="0" loc="40" ncloc="40" packages="1" files="4" classes="4"/>
-    <file name="bankAccount.js" path="/Users/sophiebrown/Projects/Week-10/bank-tech-test-js/src/bankAccount.js">
+    <file name="bankAccount.js" path="/Users/sophiebrown/Projects/Makers/Week-10/bank-tech-test-js/src/bankAccount.js">
       <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <line num="1" count="2" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
@@ -18,7 +18,7 @@
       <line num="29" count="2" type="stmt"/>
       <line num="35" count="2" type="stmt"/>
     </file>
-    <file name="statement.js" path="/Users/sophiebrown/Projects/Week-10/bank-tech-test-js/src/statement.js">
+    <file name="statement.js" path="/Users/sophiebrown/Projects/Makers/Week-10/bank-tech-test-js/src/statement.js">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="3" count="5" type="stmt"/>
       <line num="7" count="4" type="stmt"/>
@@ -32,7 +32,7 @@
       <line num="16" count="4" type="stmt"/>
       <line num="20" count="3" type="stmt"/>
     </file>
-    <file name="transactionHistory.js" path="/Users/sophiebrown/Projects/Week-10/bank-tech-test-js/src/transactionHistory.js">
+    <file name="transactionHistory.js" path="/Users/sophiebrown/Projects/Makers/Week-10/bank-tech-test-js/src/transactionHistory.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <line num="5" count="6" type="stmt"/>
       <line num="9" count="4" type="stmt"/>
@@ -43,7 +43,7 @@
       <line num="27" count="3" type="stmt"/>
       <line num="31" count="4" type="stmt"/>
     </file>
-    <file name="transactions.js" path="/Users/sophiebrown/Projects/Week-10/bank-tech-test-js/src/transactions.js">
+    <file name="transactions.js" path="/Users/sophiebrown/Projects/Makers/Week-10/bank-tech-test-js/src/transactions.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <line num="1" count="3" type="stmt"/>
       <line num="2" count="3" type="stmt"/>
